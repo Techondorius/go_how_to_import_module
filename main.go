@@ -1,8 +1,10 @@
 package main
 
-import "b"
+import (
+	"go_module/a"
+)
 
 func main(){
 	message := "Hello World!"
-	b.Print(message)
+	a.Print(message)
 }
